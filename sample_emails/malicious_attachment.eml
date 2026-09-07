@@ -1,0 +1,24 @@
+From: "Invoice Department" <billing@fake-vendor-invoices.com>
+To: victim@example.com
+Subject: Overdue Invoice - Payment Required
+Date: Fri, 04 Sep 2026 11:00:00 +0000
+Message-ID: <invoice789@fake-vendor-invoices.com>
+Authentication-Results: mx.example.com; spf=fail; dkim=fail; dmarc=fail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY123"
+
+--BOUNDARY123
+Content-Type: text/plain; charset="utf-8"
+
+Please find attached the overdue invoice. Payment is required
+immediately to avoid late fees. Open the attachment to view details.
+
+--BOUNDARY123
+Content-Type: application/octet-stream; name="invoice_details.pdf.exe"
+Content-Disposition: attachment; filename="invoice_details.pdf.exe"
+Content-Transfer-Encoding: base64
+
+VGhpcyBpcyBhIGZha2UgdGVzdCBhdHRhY2htZW50IGZvciBkZW1vbnN0cmF0aW9uIHB1cnBvc2Vz
+IG9ubHkuIE5vIHJlYWwgbWFsd2FyZSBpcyBjb250YWluZWQgaW4gdGhpcyBmaWxlLg==
+
+--BOUNDARY123--

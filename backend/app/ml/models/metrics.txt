@@ -1,0 +1,9 @@
+Training rows: 24000
+Test rows: 6000
+Accuracy: 0.9813
+Precision: 0.9813
+Recall: 0.9813
+F1 Score: 0.9813
+Confusion Matrix:
+[[2944   56]
+ [  56 2944]]

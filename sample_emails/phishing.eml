@@ -1,0 +1,24 @@
+From: "Account Security" <security@paypa1-verify.com>
+To: victim@example.com
+Reply-To: attacker@totally-not-suspicious.ru
+Subject: Urgent: Your Account Will Be Suspended in 24 Hours
+Date: Fri, 04 Sep 2026 10:15:00 +0000
+Message-ID: <fake123@paypa1-verify.com>
+Return-Path: <bounce@paypa1-verify.com>
+Received: from mail.suspicious-relay.net (203.0.113.45) by mx.example.com; Fri, 04 Sep 2026 10:14:50 +0000
+Received: from 198.51.100.23 by mail.suspicious-relay.net; Fri, 04 Sep 2026 10:14:30 +0000
+Authentication-Results: mx.example.com; spf=fail smtp.mailfrom=paypa1-verify.com; dkim=fail; dmarc=fail
+Content-Type: text/plain; charset="utf-8"
+
+Dear Customer,
+
+We detected unusual activity on your account. Your account will be
+suspended within 24 hours unless you verify your identity immediately.
+
+Click here to verify your account now:
+http://paypa1-verify-secure.com/login?redirect=account-verify&token=abc123
+
+Failure to act will result in permanent suspension of your account.
+
+Regards,
+Account Security Team
